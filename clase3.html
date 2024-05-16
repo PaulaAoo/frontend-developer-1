@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles3.css"> <!-- Enlaza el archivo CSS externo -->
+    <title>Paula Ocampo store</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/icons/ImageToStl.com_sin+título-5.svg">
+</head>
+<body>
+    <div class="login">
+        <div class="form-container">
+            <img src="./assets/img/logos/con fondo.png" alt="logo" class="logo"> <!-- Ruta relativa a la carpeta img -->
+
+            <form action="./clase6.html" class="form">
+                <div class="label-container form-group"> <!-- Añade la clase 'form-group' aquí -->
+                    <label for="email" class="label">E-mail address</label>
+                    <input type="text" id="email" placeholder="Platzi@example.com" class="input input-email">
+                </div>
+
+                <div class="label-container form-group"> <!-- Añade la clase 'form-group' aquí -->
+                    <label for="password" class="label"> Password</label>
+                    <input type="password" id="password" placeholder="*********" class="input input-password">
+                </div>
+
+                <input type="submit" value="Log in" class="primary-button login-button"> <!-- Corrected button text -->
+                <a href="./clase1.html" class="forgot-password-link">forgot my password</a> <!-- Agregado enlace para olvidar contraseña -->
+            </form>
+            <button onclick="window.location.href='clase4.html'" class="secondary-button signup-button">Sign up</button> <!-- Utiliza JavaScript para redireccionar -->
+        </div>
+    </div>
+</body>
+</html>
+

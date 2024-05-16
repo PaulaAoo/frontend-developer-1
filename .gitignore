@@ -1,0 +1,44 @@
+# Ignorar directorios específicos
+/.VirtualBox/
+/.config/
+/.jdks/
+/.m2/
+/.ssh/
+/.vscode/
+/3D Objects/
+/AppData/
+/Contacts/
+/Downloads/
+/Favorites/
+/IntelGraphicsProfiles/
+/Links/
+/Music/
+/OneDrive/
+/Pao/
+/Saved Games/
+/Searches/
+/Tracing/
+/Videos/
+/VirtualBox VMs/
+/frontend-developer/
+/project\ java\ 5\ days/
+/proyecto1/
+
+# Ignorar archivos específicos
+/.bash_history
+/.bash_profile
+/.bashrc
+/.git-for-windows-updater
+/.gitconfig
+/.lesshst
+/.minttyrc
+/.viminfo
+/.viminfo.tmp
+/NTUSER.DAT
+/NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+/NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+/NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+/ntuser.dat.LOG1
+/ntuser.dat.LOG2
+/ntuser.ini
+/bashrc

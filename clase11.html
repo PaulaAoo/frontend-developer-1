@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles11.css"> <!-- Enlaza el archivo CSS externo -->
+    <title>Paula Ocampo store</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/icons/ImageToStl.com_sin+título-5.svg">
+</head>
+<body>
+    <nav>
+        <img src="./assets/img/icons/icon_menu.svg" alt="menu" class="menu">
+
+        <div class="navbar-left">
+            <img src="./assets/img/logos/sin fondopequeno.png" alt="logo" class="logo">
+            <ul>
+                <li>
+                    <a href="/">ALL</a>
+                </li>
+
+                <li>
+                    <a href="/">Clothes</a>
+                </li>
+
+                <li>
+                    <a href="/">Electronics</a>
+                </li>
+
+                <li>
+                    <a href="/">Furnitures</a>
+                </li>
+
+                <li>
+                    <a href="/">Toys</a>
+                </li>
+
+                <li>
+                    <a href="/">Others</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <ul>
+                <li class="navbar-email">paulaocampoo@example.com  <img src="./assets/img/icons/flechita-abajo.svg" alt="flechita abajo" class="flechita-abajo" id="toggleBtn"></li>
+                <li class="navbar-shopping-cart">
+                    <img src="./assets/img/icons/icon_shopping_cart.svg" alt="shopping-cart" class="shopping-cart">
+                    <div>2</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Div donde se cargará el contenido de la clase 7 -->
+    <div id="additionalContent" style="display: none;"></div>
+
+    <!-- Script de JavaScript para cargar el contenido de la clase 7 -->
+    <script>
+        // Obtener el botón de la flecha y el div donde se cargará el contenido adicional
+        const toggleBtn = document.getElementById('toggleBtn');
+        const additionalContent = document.getElementById('additionalContent');
+    
+        // Agregar un event listener al botón de la flecha
+        toggleBtn.addEventListener('click', function() {
+            // Verificar si el contenido adicional ya está cargado
+            if (additionalContent.innerHTML.trim() === '') {
+                // Si no está cargado, cargar el contenido de la clase 7
+                additionalContent.innerHTML = `<iframe src="./clase7.html" frameborder="0" width="100%" height="100"></iframe>`;
+                additionalContent.style.display = 'block';
+            } else {
+                // Si ya está cargado, alternar su visibilidad
+                additionalContent.style.display = additionalContent.style.display === 'none' ? 'block' : 'none';
+            }
+        });
+    </script>
+    
+</body>
+</html>

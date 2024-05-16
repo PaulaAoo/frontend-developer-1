@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/prueba.css"> <!-- Enlaza el archivo CSS externo -->
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1 class="title">Create a New Password</h1>
+        <div class="form-group">
+            <input type="text" id="name"  placeholder="Paula Ocampo">
+            <label id="name-label" class="form-label">full name</label>
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="E-mail">
+            <label class="form-label">E-mail</label>
+        </div>
+        <div class="form-group">
+            <input type="password" placeholder="*********">
+            <label class="form-label">password</label>
+        </div>
+        <input type="submit" value="Create" class="primary-button login-button">
+    </section>
+
+    <script>
+        const nameInput = document.getElementById('name');
+
+        nameInput.addEventListener('input', function() {
+            const nameLabel = document.getElementById('name-label');
+            if (this.value !== '') {
+                nameLabel.style.display = 'none';
+            } else {
+                nameLabel.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
