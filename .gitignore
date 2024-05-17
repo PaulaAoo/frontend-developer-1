@@ -1,8 +1,9 @@
-# Ignorar directorios específicos
+# Ignorar directorios especï¿½ficos
 /.VirtualBox/
 /.config/
 /.jdks/
 /.m2/
+*.jpg
 /.ssh/
 /.vscode/
 /3D Objects/
@@ -24,7 +25,7 @@
 /project\ java\ 5\ days/
 /proyecto1/
 
-# Ignorar archivos específicos
+# Ignorar archivos especï¿½ficos
 /.bash_history
 /.bash_profile
 /.bashrc
